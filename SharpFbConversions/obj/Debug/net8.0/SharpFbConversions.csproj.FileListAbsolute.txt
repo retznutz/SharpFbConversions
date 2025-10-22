@@ -1,0 +1,13 @@
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/bin/Debug/net8.0/SharpFbConversions.deps.json
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/bin/Debug/net8.0/SharpFbConversions.dll
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/bin/Debug/net8.0/SharpFbConversions.pdb
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/SharpFbConversions.csproj.AssemblyReference.cache
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/SharpFbConversions.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/SharpFbConversions.AssemblyInfoInputs.cache
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/SharpFbConversions.AssemblyInfo.cs
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/SharpFbConversions.csproj.CoreCompileInputs.cache
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/SharpFbConversions.sourcelink.json
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/SharpFbConversions.dll
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/refint/SharpFbConversions.dll
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/SharpFbConversions.pdb
+/home/runner/work/SharpFbConversions/SharpFbConversions/SharpFbConversions/obj/Debug/net8.0/ref/SharpFbConversions.dll
