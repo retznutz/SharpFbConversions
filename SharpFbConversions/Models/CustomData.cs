@@ -10,7 +10,7 @@ public class CustomData
     /// <summary>
     /// Value of the event. Use this to track monetary value associated with the event.
     /// </summary>
-    [JsonPropertyName("_valueToSum")]
+    [JsonPropertyName("value")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public decimal? ValueToSum { get; set; }
 
@@ -24,98 +24,98 @@ public class CustomData
     /// <summary>
     /// Content name (e.g., product name)
     /// </summary>
-    [JsonPropertyName("_content_name")]
+    [JsonPropertyName("content_name")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? ContentName { get; set; }
 
     /// <summary>
     /// Content category
     /// </summary>
-    [JsonPropertyName("_content_category")]
+    [JsonPropertyName("content_category")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? ContentCategory { get; set; }
 
     /// <summary>
     /// Content ID (e.g., product ID)
     /// </summary>
-    [JsonPropertyName("_content_id")]
+    [JsonPropertyName("content_id")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? ContentId { get; set; }
 
     /// <summary>
     /// Content type (e.g., "product", "product_group")
     /// </summary>
-    [JsonPropertyName("_content_type")]
+    [JsonPropertyName("content_type")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? ContentType { get; set; }
 
     /// <summary>
     /// Order ID
     /// </summary>
-    [JsonPropertyName("_order_id")]
+    [JsonPropertyName("order_id")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? OrderId { get; set; }
 
     /// <summary>
     /// Predicted lifetime value
     /// </summary>
-    [JsonPropertyName("_predicted_ltv")]
+    [JsonPropertyName("predicted_ltv")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public decimal? PredictedLifetimeValue { get; set; }
 
     /// <summary>
     /// Number of items
     /// </summary>
-    [JsonPropertyName("_num_items")]
+    [JsonPropertyName("num_items")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? NumItems { get; set; }
 
     /// <summary>
     /// Search string
     /// </summary>
-    [JsonPropertyName("_search_string")]
+    [JsonPropertyName("search_string")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? SearchString { get; set; }
 
     /// <summary>
     /// Description
     /// </summary>
-    [JsonPropertyName("_description")]
+    [JsonPropertyName("description")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? Description { get; set; }
 
     /// <summary>
     /// Level
     /// </summary>
-    [JsonPropertyName("_level")]
+    [JsonPropertyName("level")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? Level { get; set; }
 
     /// <summary>
     /// Max rating value
     /// </summary>
-    [JsonPropertyName("_max_rating_value")]
+    [JsonPropertyName("max_rating_value")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? MaxRatingValue { get; set; }
 
     /// <summary>
     /// Payment info available (0 or 1)
     /// </summary>
-    [JsonPropertyName("_payment_info_available")]
+    [JsonPropertyName("payment_info_available")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? PaymentInfoAvailable { get; set; }
 
     /// <summary>
     /// Registration method
     /// </summary>
-    [JsonPropertyName("_registration_method")]
+    [JsonPropertyName("registration_method")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? RegistrationMethod { get; set; }
 
     /// <summary>
     /// Success (0 or 1)
     /// </summary>
-    [JsonPropertyName("_success")]
+    [JsonPropertyName("success")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public int? Success { get; set; }
 

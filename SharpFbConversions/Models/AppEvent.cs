@@ -14,13 +14,13 @@ public class AppEvent
     /// fb_mobile_initiated_checkout, fb_mobile_level_achieved, fb_mobile_purchase, fb_mobile_rate, 
     /// fb_mobile_search, fb_mobile_spent_credits, fb_mobile_tutorial_completion
     /// </summary>
-    [JsonPropertyName("_eventName")]
+    [JsonPropertyName("event_name")]
     public string EventName { get; set; } = string.Empty;
 
     /// <summary>
     /// Unix timestamp (in seconds) when the event occurred
     /// </summary>
-    [JsonPropertyName("_eventTime")]
+    [JsonPropertyName("event_time")]
     public long EventTime { get; set; }
 
     /// <summary>
@@ -53,7 +53,7 @@ public class AppEvent
     /// <summary>
     /// Event ID for deduplication
     /// </summary>
-    [JsonPropertyName("_eventId")]
+    [JsonPropertyName("event_id")]
     [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
     public string? EventId { get; set; }
 
