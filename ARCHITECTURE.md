@@ -67,7 +67,7 @@ All request/response objects are strongly typed with comprehensive documentation
 ```csharp
 public class AppEvent
 {
-    [JsonPropertyName("_eventName")]
+    [JsonPropertyName("event_name")]
     public string EventName { get; set; }
     
     // ... with XML documentation
@@ -125,8 +125,8 @@ POST https://graph.facebook.com/{api-version}/{app-id}/activities?access_token={
 {
   "data": [
     {
-      "_eventName": "fb_mobile_purchase",
-      "_eventTime": 1234567890,
+      "event_name": "fb_mobile_purchase",
+      "event_time": 1234567890,
       "action_source": "app",
       "user_data": { ... },
       "custom_data": { ... }
