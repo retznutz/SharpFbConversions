@@ -90,7 +90,7 @@ public class FacebookAppEventsService : IFacebookAppEventsService
 
         try
         {
-            var endpoint = $"/{_options.ApiVersion}/{_options.AppId}/activities";
+            var endpoint = $"/{_options.ApiVersion}/{_options.AppId}/events";
             var url = $"{endpoint}?access_token={_options.AccessToken}";
 
             _logger.LogInformation("Sending {Count} app event(s) to Facebook API", request.Data.Count);
